@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name part-library)(type KiCad)(uri ${KIPRJMOD}/../bmatcuk-kicad-library/part-library.pretty)(options "")(descr ""))
+)

@@ -1,0 +1,1365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/bmatcuk/Documents/edge-lit display/edge-lit display.sch</source>
+    <date>Saturday, April 28, 2018 'PMt' 01:35:30 PM</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Edge-Lit Display</title>
+        <company>Bob Matcuk</company>
+        <rev>1</rev>
+        <date>2018-04-23</date>
+        <source>edge-lit display.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Arduino Compatible/" tstamps="/5ADE474A/">
+      <title_block>
+        <title>Arduino Compatible Support</title>
+        <company>Bob Matcuk</company>
+        <rev>1</rev>
+        <date>2018-04-23</date>
+        <source>arduino-compatible.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>TLC59711PWPR</value>
+      <footprint>part-library:HTSSOP-20</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlc5971.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part">TLC5971PWPR</field>
+        <field name="Description">IC LED DRIVER LIN 60MA 20HTSSOP</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">296-27796-1-ND</field>
+      </fields>
+      <libsource lib="part-library" part="TLC59711PWPR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADEFDFA</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>part-library:0805</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21B104KOANNNC.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part">CL21B104KOANNNC</field>
+        <field name="Description">CAP CER 0.1UF 16V X7R 0805</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">1276-2448-1-ND</field>
+      </fields>
+      <libsource lib="part-library" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADEFF99</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>3.3k</value>
+      <footprint>part-library:1206</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part">RC1206FR-073K3L</field>
+        <field name="Description">RES SMD 3.3K OHM 1% 1/4W 1206</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">311-3.30KFRCT-ND</field>
+      </fields>
+      <libsource lib="part-library" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADF0429</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Dual-PMOS</value>
+      <footprint>part-library:SOT-363</footprint>
+      <datasheet>http://www.comchiptech.com/cms/UserFiles/CJ3139KDW-G%20RevA829375.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Comchip Technology</field>
+        <field name="Manufacturer Part">CJ3139KDW-G</field>
+        <field name="Description">MOSFET 2PCH 20V 660MA SOT363</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">641-1793-1-ND</field>
+      </fields>
+      <libsource lib="part-library" part="Dual-PMOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADF2A11</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED_ARGB</value>
+      <footprint>part-library:PLCC4</footprint>
+      <datasheet>http://www.cree.com/led-components/media/documents/CLV1L-FKB-1238.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Cree Inc.</field>
+        <field name="Manufacturer Part">CLV1L-FKB-CJMNQEGBB7673673</field>
+        <field name="Description">LED RGB 4PLCC SMD</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">CLV1L-FKB-CJMNQEGBB7673673CT-ND</field>
+      </fields>
+      <libsource lib="part-library" part="LED_ARGB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADF2B02</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED_ARGB</value>
+      <footprint>part-library:PLCC4</footprint>
+      <datasheet>http://www.cree.com/led-components/media/documents/CLV1L-FKB-1238.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Cree Inc.</field>
+        <field name="Manufacturer Part">CLV1L-FKB-CJMNQEGBB7673673</field>
+        <field name="Description">LED RGB 4PLCC SMD</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">CLV1L-FKB-CJMNQEGBB7673673CT-ND</field>
+      </fields>
+      <libsource lib="part-library" part="LED_ARGB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADF2EF1</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED_ARGB</value>
+      <footprint>part-library:PLCC4</footprint>
+      <datasheet>http://www.cree.com/led-components/media/documents/CLV1L-FKB-1238.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Cree Inc.</field>
+        <field name="Manufacturer Part">CLV1L-FKB-CJMNQEGBB7673673</field>
+        <field name="Description">LED RGB 4PLCC SMD</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">CLV1L-FKB-CJMNQEGBB7673673CT-ND</field>
+      </fields>
+      <libsource lib="part-library" part="LED_ARGB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADF392D</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED_ARGB</value>
+      <footprint>part-library:PLCC4</footprint>
+      <datasheet>http://www.cree.com/led-components/media/documents/CLV1L-FKB-1238.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Cree Inc.</field>
+        <field name="Manufacturer Part">CLV1L-FKB-CJMNQEGBB7673673</field>
+        <field name="Description">LED RGB 4PLCC SMD</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">CLV1L-FKB-CJMNQEGBB7673673CT-ND</field>
+      </fields>
+      <libsource lib="part-library" part="LED_ARGB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADF3938</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED_ARGB</value>
+      <footprint>part-library:PLCC4</footprint>
+      <datasheet>http://www.cree.com/led-components/media/documents/CLV1L-FKB-1238.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Cree Inc.</field>
+        <field name="Manufacturer Part">CLV1L-FKB-CJMNQEGBB7673673</field>
+        <field name="Description">LED RGB 4PLCC SMD</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">CLV1L-FKB-CJMNQEGBB7673673CT-ND</field>
+      </fields>
+      <libsource lib="part-library" part="LED_ARGB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADF3B69</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED_ARGB</value>
+      <footprint>part-library:PLCC4</footprint>
+      <datasheet>http://www.cree.com/led-components/media/documents/CLV1L-FKB-1238.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Cree Inc.</field>
+        <field name="Manufacturer Part">CLV1L-FKB-CJMNQEGBB7673673</field>
+        <field name="Description">LED RGB 4PLCC SMD</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">CLV1L-FKB-CJMNQEGBB7673673CT-ND</field>
+      </fields>
+      <libsource lib="part-library" part="LED_ARGB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADF3B74</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED_ARGB</value>
+      <footprint>part-library:PLCC4</footprint>
+      <datasheet>http://www.cree.com/led-components/media/documents/CLV1L-FKB-1238.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Cree Inc.</field>
+        <field name="Manufacturer Part">CLV1L-FKB-CJMNQEGBB7673673</field>
+        <field name="Description">LED RGB 4PLCC SMD</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">CLV1L-FKB-CJMNQEGBB7673673CT-ND</field>
+      </fields>
+      <libsource lib="part-library" part="LED_ARGB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADF3C34</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED_ARGB</value>
+      <footprint>part-library:PLCC4</footprint>
+      <datasheet>http://www.cree.com/led-components/media/documents/CLV1L-FKB-1238.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Cree Inc.</field>
+        <field name="Manufacturer Part">CLV1L-FKB-CJMNQEGBB7673673</field>
+        <field name="Description">LED RGB 4PLCC SMD</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">CLV1L-FKB-CJMNQEGBB7673673CT-ND</field>
+      </fields>
+      <libsource lib="part-library" part="LED_ARGB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADF3C3F</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>part-library:1206</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part">RC1206FR-0710KL</field>
+        <field name="Description">RES SMD 10K OHM 1% 1/4W 1206</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">311-10.0KFRCT-ND</field>
+      </fields>
+      <libsource lib="part-library" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADF4728</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>part-library:1206</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part">RC1206FR-0710KL</field>
+        <field name="Description">RES SMD 10K OHM 1% 1/4W 1206</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">311-10.0KFRCT-ND</field>
+      </fields>
+      <libsource lib="part-library" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADF84B1</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>10k</value>
+      <footprint>part-library:Bourns_3310C</footprint>
+      <datasheet>http://www.bourns.com/docs/Product-Datasheets/3310.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Manufacturer Part">3310C-125-103L</field>
+        <field name="Description">POT 10K OHM 1/4W PLASTIC LINEAR</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">3310C-125-103L-ND</field>
+      </fields>
+      <libsource lib="part-library" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE4A6E6</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ATMEGA32U4TQFP-44</value>
+      <footprint>part-library:TQFP44</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Manufacturer Part">ATMEGA32U4-AU</field>
+        <field name="Description">IC MCU 8BIT 32KB FLASH 44TQFP</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">ATMEGA32U4-AU-ND</field>
+      </fields>
+      <libsource lib="part-library" part="ATMEGA32U4TQFP-44"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADE4753</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_03X2FEMALE</value>
+      <footprint>part-library:2X3</footprint>
+      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1734506&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Manufacturer">TE Connectivity AMP Connectors</field>
+        <field name="Manufacturer Part">2-1734506-6</field>
+        <field name="Description">CONN RCPT 6POS VERT 2MM T/H</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">A115093-ND</field>
+      </fields>
+      <libsource lib="part-library" part="CONN_03X2FEMALE"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADE47B6</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>SPST-NO</value>
+      <footprint>part-library:SPST_6mm</footprint>
+      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Manufacturer">TE Connectivity ALCOSWITCH Switches</field>
+        <field name="Manufacturer Part">1825910-6</field>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">450-1650-ND</field>
+      </fields>
+      <libsource lib="part-library" part="SPST-NO"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADE4971</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>1N4148WS</value>
+      <footprint>part-library:SOD-323FL</footprint>
+      <datasheet>http://www.taiwansemi.com/products/datasheet/1N4148WS%20SERIES_K1709.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Taiwan Semiconductor Corporation</field>
+        <field name="Manufacturer Part">1N4148WS RRG</field>
+        <field name="Description">DIODE GEN PURP 75V 150MA SOD323F</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">1N4148WSRRGCT-ND</field>
+      </fields>
+      <libsource lib="part-library" part="1N4148WS"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADE4AA6</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>16MHZ</value>
+      <footprint>part-library:4SMD</footprint>
+      <datasheet>http://www.txccorp.com/download/products/quartz_crystals/2015TXC_7M_17.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">TXC CORPORATION</field>
+        <field name="Manufacturer Part">7M-16.000MAAE-T</field>
+        <field name="Description">CRYSTAL 16.0000MHZ 12PF SMD</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">887-1904-1-ND</field>
+      </fields>
+      <libsource lib="part-library" part="16MHZ"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADE4CE6</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>12pF</value>
+      <footprint>part-library:0805</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21C120JBANNNC.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part">CL21C120JBANNNC</field>
+        <field name="Description">CAP CER 12PF 50V C0G/NP0 0805</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">1276-1120-1-ND</field>
+      </fields>
+      <libsource lib="part-library" part="C"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADE4DFC</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1M</value>
+      <footprint>part-library:1206</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part">RC1206FR-071ML</field>
+        <field name="Description">RES SMD 1M OHM 1% 1/4W 1206</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">311-1.00MFRCT-ND</field>
+      </fields>
+      <libsource lib="part-library" part="R"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADE4F35</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>part-library:0805</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21B104KOANNNC.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part">CL21B104KOANNNC</field>
+        <field name="Description">CAP CER 0.1UF 16V X7R 0805</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">1276-2448-1-ND</field>
+      </fields>
+      <libsource lib="part-library" part="C"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADE52E6</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>Ferrite_Bead_30Ohm</value>
+      <footprint>part-library:0805</footprint>
+      <datasheet>http://www.bourns.com/docs/Product-Datasheets/mh.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Manufacturer Part">MH2029-300Y</field>
+        <field name="Description">FERRITE BEAD 30 OHM 0805 1LN</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">MH2029-300YCT-ND</field>
+      </fields>
+      <libsource lib="part-library" part="Ferrite_Bead_30Ohm"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADE75D2</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>part-library:0805</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21B105KOFNNNG.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part">CL21B105KOFNNNG</field>
+        <field name="Description">CAP CER 1UF 16V X7R 0805</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">1276-6471-1-ND</field>
+      </fields>
+      <libsource lib="part-library" part="C"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADE767F</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>0</value>
+      <footprint>part-library:SolderJumper-NC</footprint>
+      <fields>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="part-library" part="R"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADE7984</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>0</value>
+      <footprint>part-library:SolderJumper-NC</footprint>
+      <fields>
+        <field name="Supplier">DigiKey</field>
+      </fields>
+      <libsource lib="part-library" part="R"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADE7CE8</tstamp>
+    </comp>
+    <comp ref="ICL2">
+      <value>Varistor</value>
+      <footprint>part-library:0603</footprint>
+      <datasheet>http://www.bourns.com/docs/Product-Datasheets/MLC.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Manufacturer Part">CG0603MLC-05E</field>
+        <field name="Description">VARISTOR 0603</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">CG0603MLC-05ECT-ND</field>
+      </fields>
+      <libsource lib="part-library" part="Varistor"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADE8B6F</tstamp>
+    </comp>
+    <comp ref="ICL1">
+      <value>Varistor</value>
+      <footprint>part-library:0603</footprint>
+      <datasheet>http://www.bourns.com/docs/Product-Datasheets/MLC.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Manufacturer Part">CG0603MLC-05E</field>
+        <field name="Description">VARISTOR 0603</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">CG0603MLC-05ECT-ND</field>
+      </fields>
+      <libsource lib="part-library" part="Varistor"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADE8BDE</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse-500mA</value>
+      <footprint>part-library:1812_Concave</footprint>
+      <datasheet>https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Bel Fuse Inc.</field>
+        <field name="Manufacturer Part">0ZCG0050FF2C</field>
+        <field name="Description">PTC RESET FUSE 16V 500MA 1812</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">507-1761-1-ND</field>
+      </fields>
+      <libsource lib="part-library" part="Fuse-500mA"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADE8CA6</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB-Micro-B</value>
+      <footprint>part-library:USB_Micro_B_Female</footprint>
+      <datasheet>http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Amphenol FCI</field>
+        <field name="Manufacturer Part">10118194-0001LF</field>
+        <field name="Description">CONN USB MICRO B RECPT SMT R/A</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">609-4618-1-ND</field>
+      </fields>
+      <libsource lib="part-library" part="USB-Micro-B"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADE9647</tstamp>
+    </comp>
+    <comp ref="FB2">
+      <value>Ferrite_Bead_30Ohm</value>
+      <footprint>part-library:0805</footprint>
+      <datasheet>http://www.bourns.com/docs/Product-Datasheets/mh.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Manufacturer Part">MH2029-300Y</field>
+        <field name="Description">FERRITE BEAD 30 OHM 0805 1LN</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">MH2029-300YCT-ND</field>
+      </fields>
+      <libsource lib="part-library" part="Ferrite_Bead_30Ohm"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADE9909</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10uF</value>
+      <footprint>part-library:1210</footprint>
+      <datasheet>http://datasheets.avx.com/TAJ_AUTO.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">AVX Corporation</field>
+        <field name="Manufacturer Part">TAJB106K010TNJ</field>
+        <field name="Description">CAP TANT 10UF 10% 10V 1210</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">478-11224-1-ND</field>
+      </fields>
+      <libsource lib="part-library" part="CP"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADE9AC4</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>22</value>
+      <footprint>part-library:1206</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part">RC1206FR-0722RL</field>
+        <field name="Description">RES SMD 22 OHM 1% 1/4W 1206</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">311-22.0FRCT-ND</field>
+      </fields>
+      <libsource lib="part-library" part="R"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADE9EF9</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>part-library:1206</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part">RC1206FR-0710KL</field>
+        <field name="Description">RES SMD 10K OHM 1% 1/4W 1206</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">311-10.0KFRCT-ND</field>
+      </fields>
+      <libsource lib="part-library" part="R"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADEB1CB</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>part-library:0805</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21B104KOANNNC.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part">CL21B104KOANNNC</field>
+        <field name="Description">CAP CER 0.1UF 16V X7R 0805</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">1276-2448-1-ND</field>
+      </fields>
+      <libsource lib="part-library" part="C"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADF8CFB</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>part-library:0805</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21B104KOANNNC.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part">CL21B104KOANNNC</field>
+        <field name="Description">CAP CER 0.1UF 16V X7R 0805</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">1276-2448-1-ND</field>
+      </fields>
+      <libsource lib="part-library" part="C"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADF8DC5</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>part-library:0805</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21B104KOANNNC.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part">CL21B104KOANNNC</field>
+        <field name="Description">CAP CER 0.1UF 16V X7R 0805</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">1276-2448-1-ND</field>
+      </fields>
+      <libsource lib="part-library" part="C"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADF8E9E</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>12pF</value>
+      <footprint>part-library:0805</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21C120JBANNNC.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part">CL21C120JBANNNC</field>
+        <field name="Description">CAP CER 12PF 50V C0G/NP0 0805</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">1276-1120-1-ND</field>
+      </fields>
+      <libsource lib="part-library" part="C"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADF95C1</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>part-library:0805</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21B105KOFNNNG.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part">CL21B105KOFNNNG</field>
+        <field name="Description">CAP CER 1UF 16V X7R 0805</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">1276-6471-1-ND</field>
+      </fields>
+      <libsource lib="part-library" part="C"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADF9900</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>part-library:1206</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part">RC1206FR-0710KL</field>
+        <field name="Description">RES SMD 10K OHM 1% 1/4W 1206</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">311-10.0KFRCT-ND</field>
+      </fields>
+      <libsource lib="part-library" part="R"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADF9A41</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>22</value>
+      <footprint>part-library:1206</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part">RC1206FR-0722RL</field>
+        <field name="Description">RES SMD 22 OHM 1% 1/4W 1206</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">311-22.0FRCT-ND</field>
+      </fields>
+      <libsource lib="part-library" part="R"/>
+      <sheetpath names="/Arduino Compatible/" tstamps="/5ADE474A/"/>
+      <tstamp>5ADFA0BE</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="part-library" part="16MHZ">
+      <description>CRYSTAL 16.0000MHZ 12PF SMD</description>
+      <docs>http://www.txccorp.com/download/products/quartz_crystals/2015TXC_7M_17.pdf</docs>
+      <footprints>
+        <fp>*4-SMD*</fp>
+        <fp>*4SMD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">16MHZ</field>
+        <field name="Footprint">part-library:4SMD</field>
+        <field name="Datasheet">http://www.txccorp.com/download/products/quartz_crystals/2015TXC_7M_17.pdf</field>
+        <field name="Manufacturer">TXC CORPORATION</field>
+        <field name="Manufacturer Part">7M-16.000MAAE-T</field>
+        <field name="Description">CRYSTAL 16.0000MHZ 12PF SMD</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">887-1904-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="~" type="power_in"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="part-library" part="1N4148WS">
+      <description>DIODE GEN PURP 75V 150MA</description>
+      <docs>http://www.taiwansemi.com/products/datasheet/1N4148WS%20SERIES_K1709.pdf</docs>
+      <footprints>
+        <fp>SOD*323*FL</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148WS</field>
+        <field name="Footprint">part-library:SOD-323FL</field>
+        <field name="Datasheet">http://www.taiwansemi.com/products/datasheet/1N4148WS%20SERIES_K1709.pdf</field>
+        <field name="Manufacturer">Taiwan Semiconductor Corporation</field>
+        <field name="Manufacturer Part">1N4148WS RRG</field>
+        <field name="Description">DIODE GEN PURP 75V 150MA SOD323F</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">1N4148WSRRGCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="part-library" part="ATMEGA32U4TQFP-44">
+      <description>IC MCU 8BIT 32KB FLASH 44TQFP</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</docs>
+      <footprints>
+        <fp>*TQFP44*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATMEGA32U4TQFP-44</field>
+        <field name="Footprint">part-library:TQFP44</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Manufacturer Part">ATMEGA32U4-AU</field>
+        <field name="Description">IC MCU 8BIT 32KB FLASH 44TQFP</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">ATMEGA32U4-AU-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PE6" type="BiDi"/>
+        <pin num="2" name="UVCC" type="BiDi"/>
+        <pin num="3" name="D-" type="BiDi"/>
+        <pin num="4" name="D+" type="BiDi"/>
+        <pin num="5" name="UGND" type="BiDi"/>
+        <pin num="6" name="UCAP" type="BiDi"/>
+        <pin num="7" name="VBUS" type="BiDi"/>
+        <pin num="8" name="PB0(SS)" type="BiDi"/>
+        <pin num="9" name="PB1(SCK)" type="BiDi"/>
+        <pin num="10" name="PB2(MOSI)" type="BiDi"/>
+        <pin num="11" name="PB3(MISO)" type="BiDi"/>
+        <pin num="12" name="PB7" type="BiDi"/>
+        <pin num="13" name="~RESET" type="BiDi"/>
+        <pin num="14" name="VCC" type="BiDi"/>
+        <pin num="15" name="GND" type="BiDi"/>
+        <pin num="16" name="XTAL2" type="BiDi"/>
+        <pin num="17" name="XTAL1" type="BiDi"/>
+        <pin num="18" name="PD0(SCL)" type="BiDi"/>
+        <pin num="19" name="PD1(SDA)" type="BiDi"/>
+        <pin num="20" name="PD2(RX)" type="BiDi"/>
+        <pin num="21" name="PD3(TX)" type="BiDi"/>
+        <pin num="22" name="PD5" type="BiDi"/>
+        <pin num="23" name="GND" type="BiDi"/>
+        <pin num="24" name="AVCC" type="BiDi"/>
+        <pin num="25" name="PD4(ADC8)" type="BiDi"/>
+        <pin num="26" name="PD6(ADC9)" type="BiDi"/>
+        <pin num="27" name="PD7(ADC10)" type="BiDi"/>
+        <pin num="28" name="PB4(ADC11)" type="BiDi"/>
+        <pin num="29" name="PB5(ADC12)" type="BiDi"/>
+        <pin num="30" name="PB6(ADC13)" type="BiDi"/>
+        <pin num="31" name="PC6" type="BiDi"/>
+        <pin num="32" name="PC7" type="BiDi"/>
+        <pin num="33" name="PE2/~HWB" type="BiDi"/>
+        <pin num="34" name="VCC" type="BiDi"/>
+        <pin num="35" name="GND" type="BiDi"/>
+        <pin num="36" name="PF7(ADC7)" type="BiDi"/>
+        <pin num="37" name="PF6(ADC6)" type="BiDi"/>
+        <pin num="38" name="PF5(ADC5)" type="BiDi"/>
+        <pin num="39" name="PF4(ADC4)" type="BiDi"/>
+        <pin num="40" name="PF1(ADC1)" type="BiDi"/>
+        <pin num="41" name="PF0(ADC0)" type="BiDi"/>
+        <pin num="42" name="AREF" type="BiDi"/>
+        <pin num="43" name="GND" type="BiDi"/>
+        <pin num="44" name="AVCC" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="part-library" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="part-library" part="CONN_03X2FEMALE">
+      <description>CONN RCPT 6POS VERT 2MM T/H</description>
+      <docs>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1734506&amp;DocType=Customer+Drawing&amp;DocLang=English</docs>
+      <footprints>
+        <fp>*2X3*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_03X2FEMALE</field>
+        <field name="Footprint">part-library:2X3</field>
+        <field name="Datasheet">http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1734506&amp;DocType=Customer+Drawing&amp;DocLang=English</field>
+        <field name="Manufacturer">TE Connectivity AMP Connectors</field>
+        <field name="Manufacturer Part">2-1734506-6</field>
+        <field name="Description">CONN RCPT 6POS VERT 2MM T/H</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">A115093-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
+        <pin num="5" name="5" type="BiDi"/>
+        <pin num="6" name="6" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="part-library" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="part-library" part="Dual-PMOS">
+      <description>MOSFET 2PCH 20V 660MA SOT363</description>
+      <docs>http://www.comchiptech.com/cms/UserFiles/CJ3139KDW-G%20RevA829375.pdf</docs>
+      <footprints>
+        <fp>SOT363</fp>
+        <fp>SOT-363</fp>
+        <fp>6-TSSOP</fp>
+        <fp>SC-88</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Dual-PMOS</field>
+        <field name="Footprint">part-library:SOT-363</field>
+        <field name="Datasheet">http://www.comchiptech.com/cms/UserFiles/CJ3139KDW-G%20RevA829375.pdf</field>
+        <field name="Manufacturer">Comchip Technology</field>
+        <field name="Manufacturer Part">CJ3139KDW-G</field>
+        <field name="Description">MOSFET 2PCH 20V 660MA SOT363</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">641-1793-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S1" type="input"/>
+        <pin num="2" name="G1" type="input"/>
+        <pin num="3" name="D2" type="input"/>
+        <pin num="4" name="S2" type="input"/>
+        <pin num="5" name="G2" type="input"/>
+        <pin num="6" name="D1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="part-library" part="Ferrite_Bead_30Ohm">
+      <description>FERRITE BEAD 30 OHM 0805 1LN</description>
+      <docs>http://www.bourns.com/docs/Product-Datasheets/mh.pdf</docs>
+      <footprints>
+        <fp>0805</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">Ferrite_Bead_30Ohm</field>
+        <field name="Footprint">part-library:0805</field>
+        <field name="Datasheet">http://www.bourns.com/docs/Product-Datasheets/mh.pdf</field>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Manufacturer Part">MH2029-300Y</field>
+        <field name="Description">FERRITE BEAD 30 OHM 0805 1LN</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">MH2029-300YCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="part-library" part="Fuse-500mA">
+      <description>PTC RESET FUSE 16V 500MA 1812</description>
+      <docs>https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf</docs>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse-500mA</field>
+        <field name="Footprint">part-library:1812_Concave</field>
+        <field name="Datasheet">https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf</field>
+        <field name="Manufacturer">Bel Fuse Inc.</field>
+        <field name="Manufacturer Part">0ZCG0050FF2C</field>
+        <field name="Description">PTC RESET FUSE 16V 500MA 1812</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">507-1761-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="part-library" part="LED_ARGB">
+      <description>LED RGB 4PLCC SMD</description>
+      <docs>http://www.cree.com/led-components/media/documents/CLV1L-FKB-1238.pdf</docs>
+      <footprints>
+        <fp>PLCC4</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_ARGB</field>
+        <field name="Footprint">part-library:PLCC4</field>
+        <field name="Datasheet">http://www.cree.com/led-components/media/documents/CLV1L-FKB-1238.pdf</field>
+        <field name="Manufacturer">Cree Inc.</field>
+        <field name="Manufacturer Part">CLV1L-FKB-CJMNQEGBB7673673</field>
+        <field name="Description">LED RGB 4PLCC SMD</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">CLV1L-FKB-CJMNQEGBB7673673CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="RK" type="passive"/>
+        <pin num="3" name="GK" type="passive"/>
+        <pin num="4" name="BK" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="part-library" part="POT">
+      <description>Potentiometer</description>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="part-library" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="part-library" part="SPST-NO">
+      <description>SWITCH TACTILE SPST-NO 0.05A 24V</description>
+      <docs>http://spec_sheets.e-switch.com/specs/29-KS01Q01.pdf</docs>
+      <footprints>
+        <fp>SPST*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">SPST-NO</field>
+        <field name="Footprint">part-library:SPST_6mm</field>
+        <field name="Datasheet">http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</field>
+        <field name="Manufacturer">TE Connectivity ALCOSWITCH Switches</field>
+        <field name="Manufacturer Part">1825910-6</field>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">450-1650-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+        <pin num="3" name="~" type="BiDi"/>
+        <pin num="4" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="part-library" part="TLC59711PWPR">
+      <description>IC LED DRIVER LIN 60MA 20HTSSOP</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlc5971.pdf</docs>
+      <footprints>
+        <fp>20-HTSSOP</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLC59711PWPR</field>
+        <field name="Footprint">part-library:HTSSOP-20</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlc5971.pdf</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part">TLC5971PWPR</field>
+        <field name="Description">IC LED DRIVER LIN 60MA 20HTSSOP</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">296-27796-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IREF" type="BiDi"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUTR0" type="output"/>
+        <pin num="4" name="OUTG0" type="output"/>
+        <pin num="5" name="OUTB0" type="output"/>
+        <pin num="6" name="OUTR1" type="output"/>
+        <pin num="7" name="OUTG1" type="output"/>
+        <pin num="8" name="OUTB1" type="output"/>
+        <pin num="9" name="SDTI" type="input"/>
+        <pin num="10" name="SCKI" type="input"/>
+        <pin num="11" name="SCKO" type="output"/>
+        <pin num="12" name="SDTO" type="output"/>
+        <pin num="13" name="OUTR2" type="output"/>
+        <pin num="14" name="OUTG2" type="output"/>
+        <pin num="15" name="OUTB2" type="output"/>
+        <pin num="16" name="OUTR3" type="output"/>
+        <pin num="17" name="OUTG3" type="output"/>
+        <pin num="18" name="OUTB3" type="output"/>
+        <pin num="19" name="VCC" type="power_in"/>
+        <pin num="20" name="VREG" type="BiDi"/>
+        <pin num="21" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="part-library" part="USB-Micro-B">
+      <description>CONN USB MICRO B RECPT SMT R/A</description>
+      <docs>http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf</docs>
+      <footprints>
+        <fp>USB*Micro*B</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB-Micro-B</field>
+        <field name="Footprint">part-library:USB_Micro_B_Female</field>
+        <field name="Datasheet">http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf</field>
+        <field name="Manufacturer">Amphenol FCI</field>
+        <field name="Manufacturer Part">10118194-0001LF</field>
+        <field name="Description">CONN USB MICRO B RECPT SMT R/A</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">609-4618-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="DATA-" type="BiDi"/>
+        <pin num="3" name="DATA+" type="BiDi"/>
+        <pin num="4" name="ID" type="BiDi"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="part-library" part="Varistor">
+      <description>VARISTOR 0603</description>
+      <docs>http://www.bourns.com/docs/Product-Datasheets/MLC.pdf</docs>
+      <footprints>
+        <fp>0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">ICL</field>
+        <field name="Value">Varistor</field>
+        <field name="Footprint">part-library:0603</field>
+        <field name="Datasheet">http://www.bourns.com/docs/Product-Datasheets/MLC.pdf</field>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Manufacturer Part">CG0603MLC-05E</field>
+        <field name="Description">VARISTOR 0603</field>
+        <field name="Supplier">DigiKey</field>
+        <field name="Supplier Part">CG0603MLC-05ECT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="part-library">
+      <uri>/Users/bmatcuk/Documents/bmatcuk-kicad-library/part-library.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D5-Pad4)">
+      <node ref="U1" pin="15"/>
+      <node ref="D6" pin="4"/>
+      <node ref="D5" pin="4"/>
+    </net>
+    <net code="2" name="Net-(D5-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="U1" pin="13"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="3" name="Net-(D5-Pad3)">
+      <node ref="D5" pin="3"/>
+      <node ref="D6" pin="3"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="4" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="5" name="Net-(D3-Pad2)">
+      <node ref="U1" pin="6"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D3-Pad3)">
+      <node ref="D3" pin="3"/>
+      <node ref="D4" pin="3"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="7" name="Net-(D3-Pad4)">
+      <node ref="U1" pin="8"/>
+      <node ref="D3" pin="4"/>
+      <node ref="D4" pin="4"/>
+    </net>
+    <net code="8" name="/Arduino Compatible/D15/SCK">
+      <node ref="U1" pin="10"/>
+      <node ref="J2" pin="3"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="9" name="Net-(R3-Pad2)">
+      <node ref="RV1" pin="2"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="10" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="11" name="/Arduino Compatible/D16/MOSI">
+      <node ref="U2" pin="10"/>
+      <node ref="U1" pin="9"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="12" name="Net-(D7-Pad3)">
+      <node ref="U1" pin="17"/>
+      <node ref="D8" pin="3"/>
+      <node ref="D7" pin="3"/>
+    </net>
+    <net code="13" name="Net-(D7-Pad4)">
+      <node ref="U1" pin="18"/>
+      <node ref="D7" pin="4"/>
+      <node ref="D8" pin="4"/>
+    </net>
+    <net code="14" name="+5V">
+      <node ref="U1" pin="20"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="Q1" pin="4"/>
+      <node ref="J2" pin="2"/>
+      <node ref="FB1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U2" pin="34"/>
+      <node ref="U2" pin="14"/>
+      <node ref="C10" pin="1"/>
+      <node ref="F1" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="15" name="/Arduino Compatible/D1">
+      <node ref="Q1" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="16" name="/Arduino Compatible/D0">
+      <node ref="U2" pin="20"/>
+      <node ref="Q1" pin="5"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="17" name="Net-(D7-Pad2)">
+      <node ref="U1" pin="16"/>
+      <node ref="D8" pin="2"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="18" name="GNDD">
+      <node ref="R4" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="X1" pin="4"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="FB2" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J2" pin="6"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U2" pin="23"/>
+      <node ref="U2" pin="15"/>
+      <node ref="S1" pin="2"/>
+      <node ref="S1" pin="1"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="U2" pin="35"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="21"/>
+      <node ref="ICL2" pin="2"/>
+      <node ref="ICL1" pin="2"/>
+      <node ref="X1" pin="2"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="20" name="/Arduino Compatible/A2">
+      <node ref="U2" pin="38"/>
+    </net>
+    <net code="21" name="/Arduino Compatible/A1">
+      <node ref="U2" pin="37"/>
+    </net>
+    <net code="22" name="/Arduino Compatible/A0">
+      <node ref="U2" pin="36"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="24" name="/Arduino Compatible/D11">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="25" name="/Arduino Compatible/D10">
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="26" name="/Arduino Compatible/D9/A8">
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="27" name="/Arduino Compatible/D8">
+      <node ref="U2" pin="28"/>
+    </net>
+    <net code="28" name="/Arduino Compatible/D7">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="29" name="/Arduino Compatible/D6/A7">
+      <node ref="U2" pin="27"/>
+    </net>
+    <net code="30" name="/Arduino Compatible/D5">
+      <node ref="U2" pin="31"/>
+    </net>
+    <net code="31" name="/Arduino Compatible/D4/A6">
+      <node ref="U2" pin="25"/>
+    </net>
+    <net code="32" name="/Arduino Compatible/D3">
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="33" name="/Arduino Compatible/D2">
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="34" name="/Arduino Compatible/A5">
+      <node ref="U2" pin="41"/>
+    </net>
+    <net code="35" name="/Arduino Compatible/A4">
+      <node ref="U2" pin="40"/>
+    </net>
+    <net code="36" name="/Arduino Compatible/A3">
+      <node ref="U2" pin="39"/>
+    </net>
+    <net code="37" name="Net-(D1-Pad4)">
+      <node ref="U1" pin="5"/>
+      <node ref="D2" pin="4"/>
+      <node ref="D1" pin="4"/>
+    </net>
+    <net code="38" name="Net-(D1-Pad3)">
+      <node ref="U1" pin="4"/>
+      <node ref="D1" pin="3"/>
+      <node ref="D2" pin="3"/>
+    </net>
+    <net code="39" name="/Arduino Compatible/D14/MISO">
+      <node ref="J2" pin="1"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="40" name="/Arduino Compatible/D17">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="41" name="/Arduino Compatible/D13">
+      <node ref="U2" pin="32"/>
+    </net>
+    <net code="42" name="/Arduino Compatible/D12/A10">
+      <node ref="U2" pin="26"/>
+    </net>
+    <net code="43" name="Net-(D2-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="Q1" pin="6"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="44" name="Net-(D1-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="45" name="/Arduino Compatible/D18">
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="46" name="Net-(F1-Pad2)">
+      <node ref="F1" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="47" name="Net-(ICL1-Pad1)">
+      <node ref="ICL1" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="48" name="Net-(ICL2-Pad1)">
+      <node ref="ICL2" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="49" name="/Arduino Compatible/RESET">
+      <node ref="R10" pin="1"/>
+      <node ref="D9" pin="2"/>
+      <node ref="S1" pin="4"/>
+      <node ref="S1" pin="3"/>
+      <node ref="J2" pin="5"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="50" name="/Arduino Compatible/AREF">
+      <node ref="C3" pin="1"/>
+      <node ref="U2" pin="42"/>
+    </net>
+    <net code="51" name="/Arduino Compatible/XTAL1">
+      <node ref="U2" pin="17"/>
+      <node ref="X1" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="52" name="/Arduino Compatible/XTAL2">
+      <node ref="C7" pin="1"/>
+      <node ref="U2" pin="16"/>
+      <node ref="X1" pin="3"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="53" name="Net-(C9-Pad1)">
+      <node ref="U2" pin="6"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="54" name="/Arduino Compatible/AVCC">
+      <node ref="FB1" pin="2"/>
+      <node ref="U2" pin="44"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U2" pin="24"/>
+    </net>
+    <net code="55" name="GNDU">
+      <node ref="FB2" pin="1"/>
+      <node ref="J1" pin="5"/>
+      <node ref="U2" pin="5"/>
+      <node ref="R6" pin="1"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="56" name="GNDA">
+      <node ref="U2" pin="43"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="57" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="U2" pin="33"/>
+    </net>
+    <net code="58" name="/Arduino Compatible/D-">
+      <node ref="U2" pin="3"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="59" name="/Arduino Compatible/D+">
+      <node ref="R8" pin="1"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="60" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+  </nets>
+</export>

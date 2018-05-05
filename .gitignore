@@ -1,0 +1,4 @@
+*.bak
+gerbers/
+*.kicad_pcb-bak
+*.FCStd1
